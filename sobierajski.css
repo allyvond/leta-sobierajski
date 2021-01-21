@@ -1,0 +1,382 @@
+/*Mobile and Global*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul {
+    list-style: none;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+header {
+    height: 100vh;
+    background-image:url(Images/letapotrait2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:fixed;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+nav {
+    position: sticky;
+    top:0;
+    background-color: rgb(255, 246, 10);
+}
+nav a {
+    top:0;
+    color: mediumpurple;
+    position: sticky;
+    font-size: 1.2em;
+    font-weight: 600;
+    text-decoration: none;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 7px;
+}
+nav a:hover {
+    color: red;
+    text-decoration: line-through;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+#aiga img:hover {
+    animation-timing-function: ease-in;
+    animation-name: AIGA;
+    animation-duration: 3s;
+    animation-direction: alternate;
+}
+@keyframes AIGA {
+    to {transform: rotate(7deg)}
+    from {transform: rotate(7deg)}
+    }
+#gucci img:hover {
+    animation-timing-function: ease-in;
+    animation-name: guc;
+    animation-duration: 3s;
+    animation-direction: alternate;
+}
+@keyframes guc {
+    to {transform: rotate(-10deg)}
+    from {transform: rotate(-10deg)}
+    }
+#kaibosh img:hover {
+    animation-timing-function: ease-in;
+    animation-name: guc;
+    animation-duration: 4s;
+    animation-direction: alternate;
+}
+@keyframes guc {
+    to {transform: rotate(5deg)}
+    from {transform: rotate(5deg)}
+    }
+#curse img:hover {
+    animation-timing-function: ease-in;
+    animation-name: fuc;
+    animation-duration: 2s;
+    animation-direction: alternate;
+}
+@keyframes fuc {
+    to {transform: rotate(-3deg)}
+    from {transform: rotate(-3deg)}
+    }
+#beth img:hover {
+    animation-timing-function: ease-in;
+    animation-name: bet;
+    animation-duration: 3s;
+    animation-direction: alternate;
+}
+@keyframes bet {
+    to {transform: rotate(4deg)}
+    from {transform: rotate(4deg)}
+    }
+h1, h3 {
+    font-weight: 700;
+}
+h1 {
+    color: white;
+    font-size: 2.5em;
+}
+h2 {
+    color: rgb(255, 246, 10);
+    font-size: 1.5em;
+    font-weight: 600;
+}
+aside {
+    background-color: whitesmoke;
+}
+aside h3{
+    text-align: center;
+    padding-top: 30px;
+    color: mediumpurple;
+    font-size: 1.5em;
+}
+aside p{
+    text-align: center;
+    font-size: 1em;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-bottom: 3px dashed red;
+}
+div#square {
+    padding: 60px;
+    animation-timing-function: ease-in;
+    animation-name: blue1;
+    animation-duration: 4s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+@keyframes blue1 {
+    0% {transform: rotate(72deg)}
+    25% {transform: rotate(144deg)}
+    50% {transform: rotate(216deg)}
+    75% {transform: rotate(288deg)}
+    100% {transform: rotate(360deg)}
+    }
+div#circle {
+    padding: 60px;
+    animation-timing-function: ease-in;
+    animation-name: yellow1;
+    animation-duration: 9.5s;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
+}
+@keyframes yellow1 {
+    0% {transform: rotate(72deg)}
+    25% {transform: rotate(144deg)}
+    50% {transform: rotate(216deg)}
+    75% {transform: rotate(288deg)}
+    100% {transform: rotate(360deg)}
+    }
+div#triangle {
+    padding: 50px;
+    animation-timing-function: ease-in;
+    animation-name: red1;
+    animation-duration: 5.5s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+@keyframes red1 {
+     0% {transform: rotate(72deg)}
+     25% {transform: rotate(144deg)}
+     50% {transform: rotate(216deg)}
+     75% {transform: rotate(288deg)}
+    100% {transform: rotate(370deg)}
+    }
+main {
+    padding-top: 10vh;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+main a{
+    text-decoration: underline;
+    color: deeppink;
+}
+main a:hover {
+   color: blue;
+}
+main p{
+    font-size: 0.9em;
+    padding-left: 15px;
+    padding-bottom: 10px;
+    line-height: 1.4em;
+}
+#About p{
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+main h3 {
+    font-size: 2em;
+    padding-bottom: 8px;
+    padding-top: 20px;
+}
+main h4 {
+    font-size: 1.5em;
+    padding-bottom: 10px;
+    font-weight: 600;
+    padding-top: 15px;
+}
+main h5 {
+    font-size: 1em;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+label {
+    display: block;
+}
+form {
+    text-align: left;
+    display: flex;
+    flex-direction:column;
+    padding-left: 15px;
+    padding-bottom: 50px;
+    width: 100%;
+}
+#name2, #email, #comments {
+    font-size: 1.2em;
+    font-weight: 600;
+    line-height: 1.3em;
+    padding-bottom: 10px;
+    color: mediumpurple;
+    width: 100%;
+    
+}
+input[type=submit] {
+    display: block;
+    width: 100px;
+    margin-left: 30%;
+}
+input, textarea {
+    background-color: pink;
+    font-size: 1.3em;
+    color: mediumpurple;
+    padding: 5px;
+    width: 90%;
+    border: 2px dashed red;
+}
+textarea:hover, input:hover {
+    box-shadow: 10px 10px rgb(255, 246, 10);
+}
+table {
+    padding: 15px;
+    background-color:whitesmoke;
+    width:100%;
+    line-height: 2em;
+    text-align:left;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    }
+th {
+    color: mediumpurple;
+    font-size: 1.3em;
+    padding-bottom: 5px;
+    }
+
+/*Destop Style*/
+
+@media only screen and (min-width: 481px)
+{
+nav a {
+    padding: 10px;
+    margin-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+nav ul{
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+}
+h1 {
+    font-size: 3em;
+}
+h2 {
+    font-size: 2em;
+}
+aside{
+    width: 20%;
+    float: left;
+    padding: 20px;
+    padding-top: 10vh;
+}
+aside h3{
+    font-size: 1.5em;
+    padding-top:30px;
+}
+aside p{
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+aside li {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+div#square {
+    margin-top: 30px;
+    padding: 20px;
+    animation-duration: 2.5s;
+}
+div#square:hover {
+      animation-play-state: paused;
+}
+div#circle {
+    margin-top: 40px;
+    padding: 10px;
+    animation-duration: 7s;
+}
+div#circle:hover {
+    animation-play-state: paused;
+}
+div#triangle {
+    margin-top: 60px;
+    padding: 7px;
+    animation-duration: 4s;
+    padding-bottom: 25px;
+}
+div#triangle:hover {
+    animation-play-state: paused;
+}
+main{
+    width: 80%;
+    float: right;
+    padding-left: 30px;
+}
+main img {
+        padding-right: 20px;
+}   
+main p{
+    line-height: 1.5em;
+}
+main h3 {
+    font-size: 2.5em;
+ }
+main h4 {
+    font-size: 1.75em;
+}
+main h5 {
+    font-size: 1.5em;
+}
+input[type=submit] {
+    margin-left: 20%;
+}
+input, textarea {
+    width: 50%;
+}
+te
+table {
+    padding: 15px;
+    background-color:whitesmoke;
+    width:100%;
+    line-height: 2em;
+    text-align:left;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    }
+th {
+    color: mediumpurple;
+    font-size: 1.3em;
+    padding-bottom: 5px;
+    }
+table {
+    width:70%;
+    }
+    
+
+
+} /*end desktop media query*/
