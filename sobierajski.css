@@ -13,7 +13,7 @@ body {
 }
 header {
     height: 100vh;
-    background-image:url(Images/letapotrait2.jpg);
+    background-image:url(letapotrait2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment:fixed;
